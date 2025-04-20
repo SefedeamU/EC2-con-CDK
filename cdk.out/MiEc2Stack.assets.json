@@ -1,0 +1,21 @@
+{
+  "version": "41.0.0",
+  "files": {
+    "e356eb1f0b54548b350c81bd4f91f9eed2cbab0deec7fee9c6d5e43cd75ea98e": {
+      "displayName": "MiEc2Stack Template",
+      "source": {
+        "path": "MiEc2Stack.template.json",
+        "packaging": "file"
+      },
+      "destinations": {
+        "065548213155-us-east-1": {
+          "bucketName": "cdk-hnb659fds-assets-065548213155-us-east-1",
+          "objectKey": "e356eb1f0b54548b350c81bd4f91f9eed2cbab0deec7fee9c6d5e43cd75ea98e.json",
+          "region": "us-east-1",
+          "assumeRoleArn": "arn:aws:iam::065548213155:role/LabRole"
+        }
+      }
+    }
+  },
+  "dockerImages": {}
+}

@@ -1,0 +1,16 @@
+# Ignorar dependencias de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignorar entornos virtuales
+venv/
+env/
+*.venv
+*.env
+
+# Ignorar archivos de entorno
+.env
+.env.local
+.env.*.local

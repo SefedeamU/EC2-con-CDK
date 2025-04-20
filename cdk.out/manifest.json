@@ -1,0 +1,84 @@
+{
+  "version": "41.0.0",
+  "artifacts": {
+    "MiEc2Stack": {
+      "type": "aws:cloudformation:stack",
+      "environment": "aws://065548213155/us-east-1",
+      "properties": {
+        "templateFile": "MiEc2Stack.template.json",
+        "terminationProtection": false,
+        "validateOnSynth": false
+      },
+      "metadata": {
+        "/MiEc2Stack/MiVPC/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "MiVPC02E74BD7"
+          }
+        ],
+        "/MiEc2Stack/MiVPC/PublicSubnetSubnet1/Subnet": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "MiVPCPublicSubnetSubnet1Subnet9889EEC4"
+          }
+        ],
+        "/MiEc2Stack/MiVPC/PublicSubnetSubnet1/RouteTable": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "MiVPCPublicSubnetSubnet1RouteTable9BD7A30C"
+          }
+        ],
+        "/MiEc2Stack/MiVPC/PublicSubnetSubnet1/RouteTableAssociation": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "MiVPCPublicSubnetSubnet1RouteTableAssociation7E5D57F5"
+          }
+        ],
+        "/MiEc2Stack/MiVPC/PublicSubnetSubnet1/DefaultRoute": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "MiVPCPublicSubnetSubnet1DefaultRoute81731318"
+          }
+        ],
+        "/MiEc2Stack/MiVPC/IGW": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "MiVPCIGW6CC4C31C"
+          }
+        ],
+        "/MiEc2Stack/MiVPC/VPCGW": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "MiVPCVPCGW61932BEB"
+          }
+        ],
+        "/MiEc2Stack/MiSG/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "MiSGCB63EE95"
+          }
+        ],
+        "/MiEc2Stack/MiInstanciaEC2/InstanceProfile": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "MiInstanciaEC2InstanceProfileBADA9BCA"
+          }
+        ],
+        "/MiEc2Stack/MiInstanciaEC2/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "MiInstanciaEC23B63CD8A"
+          }
+        ]
+      },
+      "displayName": "MiEc2Stack"
+    },
+    "Tree": {
+      "type": "cdk:tree",
+      "properties": {
+        "file": "tree.json"
+      }
+    }
+  },
+  "minimumCliVersion": "2.1005.0"
+}
